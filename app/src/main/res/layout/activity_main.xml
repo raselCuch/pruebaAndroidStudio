@@ -25,6 +25,7 @@
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Basicos"
             android:text="controles basicos" />
 
         <Button
@@ -38,6 +39,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="controles avanzados" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Name" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
